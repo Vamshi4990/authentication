@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>logout</title>
+</head>
+<body>
+   {% extends 'testapp/base.html' %}
+   {% block body_block %}
+   <div class="jumbotron">
+    <div class="container" align="center">
+        <h1>Thanks for using IT job exams</h1>
+        <p>Anyway we are feeling sad because you logout, atleast 24hrs use our app </p>
+        <h2>please login again to enjoy</h2>
+        <a href="/accounts/login" class="btn btn-success">Login</a>
+    </div>
+   </div> 
+   {% endblock %}
+</body>
+</html>
